@@ -9,5 +9,5 @@ find_package(date CONFIG REQUIRED)
 add_executable(currentDateTime main.cpp)
 target_link_libraries(currentDateTime PRIVATE
     date::date
-#    date::date-tz
+    date::date-tz
     )
